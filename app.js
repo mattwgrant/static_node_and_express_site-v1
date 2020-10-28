@@ -17,13 +17,5 @@ app.use(mainRoutes);
 app.use('/projects', projectRoutes);
 app.use('/about', aboutRoutes);
 
-
-
-// app.get('/projects', (req, res) => {
-// 	res.send('Here are my porjects!');
-// });
-
-
-
 app.listen(3000);
 

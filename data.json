@@ -16,7 +16,7 @@
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"live_link": "https://pagination-and-filtering.herokuapp.com/",
 			"github_link": "https://github.com/mattwgrant/pagination_and_filtering",
-			"image_urls": ["/static/images/pf1", "/static/images/pf2"]
+			"image_urls": ["/static/images/pf1.png", "/static/images/pf2.png"]
 		},
 		{
 			"id": 2,
@@ -25,13 +25,13 @@
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"live_link": "https://interactive-forms-mwg.herokuapp.com/",
 			"github_link": "https://github.com/mattwgrant/interactive-form",
-			"image_urls": ["/static/images/forms1", "/static/images/forms2", "/static/images/forms3"]
+			"image_urls": ["/static/images/forms1.png", "/static/images/forms2.png", "/static/images/forms3.png"]
 		},
 		{
 			"id": 3,
 			"project_name": "Object Oriented Game",
 			"description": "Pending",
-			"technologies": ["HTML", "CSS", "JavaScript"],
+			"technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"],
 			"live_link": "https://object-oriented-game.herokuapp.com/",
 			"github_link": "https://github.com/mattwgrant/OOP-Game",
 			"image_urls": ["/static/images/phrase1.png", "/static/images/phrase2.png", "/static/images/phrase3.png", "/static/images/phrase4.png"]
