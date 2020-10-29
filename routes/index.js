@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 	const { image_urls } = projects;
 
 	const templateData = { id, project_name, image_urls, projectsList }	
-	console.log(projectsList[0].image_urls[0]);
+	console.log(project_name);
 	res.render('index', templateData);
 });
 
