@@ -12,7 +12,7 @@
 		{
 			"id": 1,
 			"project_name": "Pagination and Filtering",
-			"description": "Pending",
+			"description": "List of students is filtered to 10 per page with links generated off of how many users there are",
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"live_link": "https://pagination-and-filtering.herokuapp.com/",
 			"github_link": "https://github.com/mattwgrant/pagination_and_filtering",
@@ -21,8 +21,8 @@
 		{
 			"id": 2,
 			"project_name": "Interactive Forms",
-			"description": "Pending",
-			"technologies": ["HTML", "CSS", "JavaScript"],
+			"description": "Form validation and regex",
+			"technologies": ["HTML", "CSS", "JavaScript", "Regex"],
 			"live_link": "https://interactive-forms-mwg.herokuapp.com/",
 			"github_link": "https://github.com/mattwgrant/interactive-form",
 			"image_urls": ["/static/images/forms1.png", "/static/images/forms2.png", "/static/images/forms3.png"]
@@ -30,7 +30,7 @@
 		{
 			"id": 3,
 			"project_name": "Object Oriented Game",
-			"description": "Pending",
+			"description": "Hangman-type game using Object-Oriented Programming",
 			"technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"],
 			"live_link": "https://object-oriented-game.herokuapp.com/",
 			"github_link": "https://github.com/mattwgrant/OOP-Game",
@@ -39,7 +39,7 @@
 		{
 			"id": 4,
 			"project_name": "Public API Request",
-			"description": "Pending",
+			"description": "Accesses a public API and returns 12 results with user information as well as the ability to click on a user and produce a modal with more data on the user",
 			"technologies": ["HTML", "CSS", "JavaScript"],
 			"live_link": "https://static-api-request.herokuapp.com/",
 			"github_link": "https://github.com/mattwgrant/public_api_request-v1",
