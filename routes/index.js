@@ -4,13 +4,13 @@ const { projects } = require('../data.json');
 
 router.get('/', (req, res) => {
 	const { id } = projects;
-	
-	// const { project_name } = projects[numberOfProjects];
-	// const { image_urls } = projects[numberOfProjects];
+	const projectsList = projects;
+	const { project_name } = projects;
+	const { image_urls } = projects;
 
-	// const templateData = { project_name, image_urls }	
-	console.log(id);
-	res.render('index');
+	const templateData = { id, project_name, image_urls, projectsList }	
+	console.log(projectsList[0].image_urls[0]);
+	res.render('index', templateData);
 });
 
 module.exports = router;

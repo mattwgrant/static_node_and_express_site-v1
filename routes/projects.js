@@ -13,8 +13,7 @@ router.get('/:id', (req, res) => {
 	const { technologies } = projects[id];
 	const { image_urls } = projects[id];
 
-	const templateData = { project_name, description, technologies, image_urls };
-
+	const templateData = { project_name, description, technologies, image_urls, projects };
 	res.render(`project`, templateData);
 });
 
