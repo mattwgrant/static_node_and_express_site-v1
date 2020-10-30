@@ -30,12 +30,16 @@ h1,h2,h3,h4,h5,p{
   color: #666;
 }
 
+
+
 .button{
-  background-color: #333;
+  background-color: #00BCCB;
+  color: #000000;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #E43F46;
+/*  color: #00BCCB;*/
 }
 
 a{
@@ -152,3 +156,10 @@ a:hover{
 .error-handle {
   margin: 15% 25%;
 }
+
+.cell img:hover {
+  border: 10px solid #eaeaea;
+  box-shadow: 2px 2px 2px 2px;
+  /*width: 350px;
+  height: 250px;
+*/}
