@@ -26,7 +26,13 @@ app.use('/about', aboutRoutes);
  */
 
 app.use((req, res, next) => {
-	const err = new Error('Sorry, this page does not exist');
+	const err = new Error();
+	err.status = 404;
+	next(err);
+});
+
+app.use((req, res, next) => {
+	const err = new Error();
 	err.status = 500;
 	next(err);
 });
