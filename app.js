@@ -22,7 +22,29 @@ app.use('/projects', projectRoutes);
 app.use('/about', aboutRoutes);
 
 /*
+ * Error handlers
+ */
+
+app.use((req, res, next) => {
+	const err = new Error('Sorry, this page does not exist');
+	err.status = 500;
+	next(err);
+});
+
+app.use((err, req, res, next) => {
+	res.locals.error = err;
+	
+	if (err.status === 404) {
+		res.render('page-not-found', err);
+	} else {
+		res.render('error', err);
+	}
+});
+
+/*
  * Set port for server
  */
-app.listen(3000);
+app.listen(3000, () => {
+	console.log('Your server is running on localhost:3000!');
+});
 

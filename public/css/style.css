@@ -148,3 +148,7 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.error-handle {
+  margin: 15% 25%;
+}

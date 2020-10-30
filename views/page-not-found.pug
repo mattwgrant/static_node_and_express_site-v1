@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+	.error-handle
+		h1 Oops, this page does not exist!
+		h2 #{error.status} error
+		img(src='/static/images/error-pic.png')
