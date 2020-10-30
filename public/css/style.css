@@ -34,12 +34,18 @@ h1,h2,h3,h4,h5,p{
 
 .button{
   background-color: #00BCCB;
-  color: #000000;
+  color: #000;
 }
 
 .button:hover{
   background-color: #E43F46;
 /*  color: #00BCCB;*/
+}
+
+.button:focus {
+  background-color: #000;
+  color: #00BCCB;
+  border: 1px solid #00BCCB;
 }
 
 a{
