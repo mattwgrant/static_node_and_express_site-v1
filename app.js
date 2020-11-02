@@ -42,12 +42,10 @@ app.use((err, req, res, next) => {
 	
 	if (err.status === 404) {
 		err.message = 'Sorry, this page does not exist';
-		console.log(err);
 		res.render('page-not-found', err);
 	} else {
 		err.status = 500;
 		err.message = 'Oops, something went wrong';
-		console.log(err)
 		res.render('error', err);
 	} 
 });
