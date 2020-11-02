@@ -26,25 +26,30 @@ app.use('/about', aboutRoutes);
  */
 
 app.use((req, res, next) => {
-	const err = new Error();
+	const err = new Error('Sorry, this page does not exist');
 	err.status = 404;
 	next(err);
 });
 
-app.use((req, res, next) => {
-	const err = new Error();
-	err.status = 500;
-	next(err);
-});
+// app.use((req, res, next) => {
+// 	const err = new Error('Oops, something went wrong');
+// 	err.status = 500;
+// 	next(err);
+// });
 
 app.use((err, req, res, next) => {
 	res.locals.error = err;
 	
 	if (err.status === 404) {
+		err.message = 'Sorry, this page does not exist';
+		console.log(err);
 		res.render('page-not-found', err);
 	} else {
+		err.status = 500;
+		err.message = 'Oops, something went wrong';
+		console.log(err)
 		res.render('error', err);
-	}
+	} 
 });
 
 /*

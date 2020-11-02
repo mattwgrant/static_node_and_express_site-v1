@@ -2,7 +2,9 @@ extends layout.pug
 
 block content
 	.error-handle
-		h1 Oops, something went wrong
+		h1 #{error.message}
 		if (error.status)
 			h2 #{error.status} error
+		else 
+			h2 #{error.statusCode}
 		img(src='/static/images/error-pic.png')
