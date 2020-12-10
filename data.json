@@ -41,7 +41,7 @@
 			"project_name": "Public API Request",
 			"description": "Accesses a public API and returns 12 results with user information as well as the ability to click on a user and produce a modal with more data on the user",
 			"technologies": ["HTML", "CSS", "JavaScript"],
-			"live_link": "https://static-api-request.herokuapp.com/",
+			"live_link": "https://public-api-request.herokuapp.com/",
 			"github_link": "https://github.com/mattwgrant/public_api_request-v1",
 			"image_urls": ["/static/images/api1.png", "/static/images/api2.png", "/static/images/api3.png"]
 		}
