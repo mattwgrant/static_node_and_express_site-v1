@@ -5,7 +5,7 @@
 			"project_name": "Random Quote Generator",
 			"description": "A random quote with a random background color are generated every 5 seconds or everytime the button is clicked",
 			"technologies": ["HTML", "CSS", "JavaScript"],
-			"live_link": "https://random-phrases.herokuapp.com/",
+			"live_link": "https://mattwgrant.github.io/mattwgrant.githib.io/",
 			"github_link": "https://github.com/mattwgrant/randomquote",
 			"image_urls": ["/static/images/random1.png", "/static/images/random2.png", "/static/images/random3.png"]
 		},
